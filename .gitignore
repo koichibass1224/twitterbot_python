@@ -1,2 +1,3 @@
 # exe ファイルは要らない
 *.config.json
+*.list.txt
