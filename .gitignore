@@ -1,3 +1,4 @@
 # exe ファイルは要らない
-config.json
+txt/
+*.config.json
 *.txt
