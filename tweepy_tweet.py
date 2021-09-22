@@ -2,7 +2,7 @@ import tweepy
 # from config import CONFIG
 
 import json
-json_open = open('config.json', 'r')
+json_open = open('txt/config.json', 'r')
 json_load = json.load(json_open)
 
 # print(json_load)
@@ -21,7 +21,7 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-file_name = 'list.txt'
+file_name = 'txt/list.txt'
 
 with open(file_name) as f:
     lines = f.readlines()

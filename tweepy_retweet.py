@@ -2,7 +2,7 @@ import tweepy
 # from config import CONFIG
 
 import json
-json_open = open('config.json', 'r')
+json_open = open('txt/config.json', 'r')
 json_load = json.load(json_open)
 
 # print(json_load)
